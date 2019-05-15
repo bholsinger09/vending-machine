@@ -1,9 +1,11 @@
 
+import VendingController from "./components/vendingControler";
+
 
 class App {
   constructor() {
     this.controler = {
-      vendingControler: new vendingControler()
+      vendingController: new VendingController()
     }
 
   }
