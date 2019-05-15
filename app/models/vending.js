@@ -25,7 +25,7 @@ here we all use our getter methods to create any templates needed
 getter will use return and backtick to return html needed in template
 */
 
-export default class vendingModel {
+export default class VendingModel {
   constructor(coinsData) {
     //add properties of model here 
     //model has property of data requested on coin click

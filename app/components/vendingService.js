@@ -1,8 +1,28 @@
+
+import VendingModel from "../models/vending";
+
 //private
+let _vendingModel = new VendingModel()
 
 //private variable to store model goes here 
 //make sure variable stores same data type as the model 
 
+export default class VendingService {
+
+  get coins() {
+    let _copyModel = new VendingModel()
+    return _copyModel.addCoins(5)
+  }
+  get alertCoins() {
+    let _copyModel = new VendingModel()
+    return _copyModel.coinAlert
+  }
+  //when functional console should show message
+  //when functional purchase button should have an alert
+
+
+
+}
 /*
 --export the service class(this makes it private )
 
